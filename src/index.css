@@ -26,3 +26,33 @@ input:-webkit-autofill:focus {
 .gutter {
 	scrollbar-gutter: stable;
 }
+
+body {
+	--sb-track-color: #0e0e0e;
+	--sb-thumb-color: #108210;
+	--sb-size: 10px;
+}
+
+body::-webkit-scrollbar {
+	width: var(--sb-size);
+}
+
+body::-webkit-scrollbar-track {
+	background: var(--sb-track-color);
+	border-radius: 1px;
+}
+
+body::-webkit-scrollbar-thumb {
+	background: var(--sb-thumb-color);
+	border-radius: 1px;
+}
+
+@supports not selector(::-webkit-scrollbar) {
+	body {
+		scrollbar-color: var(--sb-thumb-color) var(--sb-track-color);
+	}
+}
+html {
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
