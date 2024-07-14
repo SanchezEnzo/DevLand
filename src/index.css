@@ -28,8 +28,8 @@ input:-webkit-autofill:focus {
 }
 
 body {
-	--sb-track-color: #0e0e0e;
-	--sb-thumb-color: #108210;
+	--sb-track-color: #141a1d;
+	--sb-thumb-color: #0b0b0b;
 	--sb-size: 10px;
 }
 
@@ -52,7 +52,63 @@ body::-webkit-scrollbar-thumb {
 		scrollbar-color: var(--sb-thumb-color) var(--sb-track-color);
 	}
 }
+
+.custom-scroll {
+	--sb-track-color: #141a1d;
+	--sb-thumb-color: #0b0b0b;
+	--sb-size: 10px;
+}
+
+.custom-scroll::-webkit-scrollbar {
+	width: var(--sb-size);
+}
+
+.custom-scroll::-webkit-scrollbar-track {
+	background: var(--sb-track-color);
+	border-radius: 1px;
+}
+
+.custom-scroll::-webkit-scrollbar-thumb {
+	background: var(--sb-thumb-color);
+	border-radius: 1px;
+}
+
+@supports not selector(::-webkit-scrollbar) {
+	.custom-scroll {
+		scrollbar-color: var(--sb-thumb-color) var(--sb-track-color);
+	}
+}
+
 html {
 	overflow-y: scroll;
 	overflow-x: hidden;
+}
+
+/* CSS */
+.shadow-button {
+	font-size: 16px;
+	letter-spacing: 2px;
+	text-decoration: none;
+	text-transform: uppercase;
+	cursor: pointer;
+	border: 3px solid rgb(0, 0, 0);
+	padding: 0.25em 0.5em;
+	box-shadow: 1px 1px 0px 0px rgb(0, 0, 0), 2px 2px 0px 0px rgb(0, 0, 0),
+		3px 3px 0px 0px, 4px 4px 0px 0px rgb(0, 0, 0), 5px 5px 0px 0px rgb(0, 0, 0);
+	position: relative;
+	user-select: none;
+	-webkit-user-select: none;
+	touch-action: manipulation;
+}
+
+.shadow-button:active {
+	box-shadow: 0px 0px 0px 0px;
+	top: 5px;
+	left: 5px;
+}
+
+@media (min-width: 768px) {
+	.shadow-button {
+		padding: 0.25em 0.75em;
+	}
 }

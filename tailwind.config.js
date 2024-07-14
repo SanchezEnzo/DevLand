@@ -6,6 +6,14 @@ export default {
 			gridTemplateColumns: {
 				repeatAutoFill: 'repeat(auto-fill,minmax(400px, 1fr))',
 			},
+			keyframes: {
+				'spin-slow': {
+					from: { transform: 'rotate(360deg)' },
+				},
+			},
+			animation: {
+				'spin-slow': 'spin-slow 5s linear infinite',
+			},
 		},
 	},
 	plugins: [],
