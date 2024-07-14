@@ -4,20 +4,22 @@ import { Item } from '../typescript/Interface';
 import { ICONS_ITEM } from '../constants/iconsItems';
 import { useQuery } from './useQuery';
 import { useCategory } from './useCategory';
+import { usePage } from './usePage';
 
 export function useFilter() {
 	const { query } = useQuery();
 	const { category } = useCategory();
-	const [filteredItems, setFilteredItems] = useState<Item[]>();
+	const [filteredItems, setFilteredItems] = useState<Item[]>(ICONS_ITEM);
+	const { checkIsLastPage, page } = usePage();
 
 	useEffect(() => {
-		if (category === 'ALL' && query === '') {
+		if (category === 'All' && query === '') {
 			setFilteredItems(ICONS_ITEM);
 			return;
 		}
 
 		const filterByCategory =
-			category === 'ALL'
+			category === 'All'
 				? ICONS_ITEM
 				: ICONS_ITEM.filter(item => item.tag === category);
 
@@ -32,6 +34,10 @@ export function useFilter() {
 
 		setFilteredItems(filterByQuery);
 	}, [query, category]);
+
+	useEffect(() => {
+		checkIsLastPage(filteredItems);
+	}, [page, filteredItems]);
 
 	return filteredItems;
 }
