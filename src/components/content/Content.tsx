@@ -8,7 +8,7 @@ export function Content() {
 
 	return (
 		<section className='px-10 py-20 gap-5 grid grid-cols-repeatAutoFill my-0 mx-auto w-full place-items-center min-h-[90dvh] items-start'>
-			{filteredItems?.slice(page * 12 - 12, page * 12).map((icon, index) => {
+			{filteredItems?.slice(page * 6 - 6, page * 6).map((icon, index) => {
 				return <Card icon={icon} index={index} />;
 			})}
 		</section>
