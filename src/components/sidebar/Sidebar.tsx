@@ -1,31 +1,25 @@
-import { Categories } from '../../contexts/category';
 import { useCategory } from '../../hooks/useCategory';
+import { CATEGORIES } from '../../constants/categories';
 
 export function Sidebar() {
-	const CATEGORIES: Partial<Categories>[] = [
-		'ALL',
-		'ICONS',
-		'IMAGES',
-		'LIBRARIES',
-		'TAILWINDCSS',
-		'TIPS',
-		'TOOLS',
-		'UXUI',
-	];
+	const { updateCategory, category } = useCategory();
 
-	const { updateCategory } = useCategory();
 	return (
-		<aside className='w-full sticky top-0 max-w-[300px] bg-[rgb(11,11,11)] flex flex-col items-center h-screen text-[#f1f1f1] gap-10 pt-5 outline outline-[#f1f1f111] outline-[0.1px]'>
+		<aside className='w-full sticky top-0 max-w-[300px] bg-[rgb(11,11,11)] flex flex-col items-center h-screen text-[#f1f1f1] gap-10 pt-5 outline outline-[#f1f1f111] outline-[0.1px]  overflow-y-auto custom-scroll'>
 			<h1 className='rubik-doodle-shadow-regular text-5xl'>Devland</h1>
-			<ul className='flex flex-col px-10 w-full gap-5 bungee-regular '>
-				{CATEGORIES.map(category => {
+			<ul className='flex flex-col px-10 w-full gap-4 '>
+				{CATEGORIES.map(cat => {
 					return (
 						<li
-							key={category}
-							className='w-full outline outline-[#f1f1f155] bg-[rgb(14,14,14)] outline-[0.1px] rounded-md p-1 cursor-pointer pl-2'
-							onClick={() => updateCategory(category)}
+							key={cat}
+							className={`w-full outline outline-[#f1f1f155] outline-[0.1px] rounded-md p-2 cursor-pointer pl-3 font-semibold  duration-300 ${
+								category === cat
+									? 'bg-[#f1f1f1dd] text-black '
+									: 'bg-[rgb(14,14,14)]'
+							}`}
+							onClick={() => updateCategory(cat)}
 						>
-							<span>{category}</span>
+							<span>{cat}</span>
 						</li>
 					);
 				})}

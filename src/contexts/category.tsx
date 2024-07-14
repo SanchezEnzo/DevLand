@@ -1,14 +1,14 @@
 import { createContext, useState } from 'react';
 
 export type Categories =
-	| 'ALL'
-	| 'ICONS'
-	| 'IMAGES'
-	| 'LIBRARIES'
-	| 'TAILWINDCSS'
-	| 'TIPS'
-	| 'TOOLS'
-	| 'UXUI';
+	| 'All'
+	| 'Icons'
+	| 'Images'
+	| 'Libraries'
+	| 'Tailwind'
+	| 'Tips'
+	| 'Tools'
+	| 'UX-UI';
 
 export interface CategoryContextProps {
 	category: Partial<Categories>;
@@ -16,7 +16,7 @@ export interface CategoryContextProps {
 }
 
 const initialValue: CategoryContextProps = {
-	category: 'ALL',
+	category: 'All',
 	updateCategory: (category: Partial<Categories>) => category,
 };
 
@@ -24,7 +24,7 @@ export const CategoryContext =
 	createContext<CategoryContextProps>(initialValue);
 
 export function CategoryProvider({ children }: { children: React.ReactNode }) {
-	const [category, setCategory] = useState<Partial<Categories>>('ALL');
+	const [category, setCategory] = useState<Partial<Categories>>('All');
 
 	const updateCategory = (category: Partial<Categories>) => {
 		setCategory(category);
