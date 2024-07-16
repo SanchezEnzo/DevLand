@@ -15,7 +15,7 @@ export function Sidebar() {
 							className={`w-full outline outline-[#f1f1f155] outline-[0.1px] rounded-md p-2 cursor-pointer pl-3 font-semibold  duration-300 ${
 								category === cat
 									? 'bg-[#f1f1f1dd] text-black '
-									: 'bg-[rgb(14,14,14)]'
+									: 'bg-[rgb(17,17,17)]'
 							}`}
 							onClick={() => updateCategory(cat)}
 						>

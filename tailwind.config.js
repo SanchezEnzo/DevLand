@@ -5,6 +5,7 @@ export default {
 		extend: {
 			gridTemplateColumns: {
 				repeatAutoFill: 'repeat(auto-fill,minmax(400px, 1fr))',
+				repeatAutoFillMobile: 'repeat(auto-fill,minmax(300px, 1fr))',
 			},
 			keyframes: {
 				'spin-slow': {

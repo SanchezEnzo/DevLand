@@ -15,7 +15,7 @@ export function Search() {
 						type='text'
 						name='query'
 						id='search'
-						placeholder='Svg, resize, best practise design...'
+						placeholder='Search'
 						className='w-full h-[46px] bg-transparent focus:outline-none font-semibold'
 						autoComplete='off'
 						onChange={handleChange}
