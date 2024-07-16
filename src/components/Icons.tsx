@@ -38,11 +38,11 @@ export function LinkIcon() {
 			width='36'
 			height='36'
 			viewBox='0 0 24 24'
-			stroke-width='2'
+			strokeWidth='2'
 			stroke='#cbc8c8'
 			fill='none'
-			stroke-linecap='round'
-			stroke-linejoin='round'
+			strokeLinecap='round'
+			strokeLinejoin='round'
 		>
 			<path stroke='none' d='M0 0h24v24H0z' fill='none' />
 			<path d='M12 6h-6a2 2 0 0 0 -2 2v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-6' />
