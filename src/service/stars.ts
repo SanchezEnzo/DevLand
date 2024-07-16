@@ -26,7 +26,6 @@ export async function getStarsNumber(): Promise<StarsInterface[]> {
 		const res = await fetch(BASE_URL);
 		if (!res.ok) throw new Error(`Error getting stars: ${res.statusText}`);
 		const data = res.json();
-		console.log(data);
 		return data;
 	} catch (error) {
 		console.error('Error getting stars: ', error);
