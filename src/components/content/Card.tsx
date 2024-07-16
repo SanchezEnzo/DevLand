@@ -1,12 +1,9 @@
 import { Item } from '../../typescript/Interface';
 import { LinkIcon } from '../Icons';
 
-export function Card({ icon, index }: { icon: Item; index: number }) {
+export function Card({ icon }: { icon: Item }) {
 	return (
-		<article
-			key={index}
-			className='outline outline-[#f1f1f155] outline-[0.1px] text-[#f1f1f1ee] rounded-md w-full px-5 py-5 flex flex-col items-center cursor-pointer justify-center gap-3 bg-[rgb(11,11,11)] max-w-[500px] max-md:max-w-[400px] group relative overflow-y-hidden '
-		>
+		<article className='outline outline-[#f1f1f155] outline-[0.1px] text-[#f1f1f1ee] rounded-md w-full px-5 py-5 flex flex-col items-center cursor-pointer justify-center gap-3 bg-[rgb(11,11,11)] max-w-[500px] max-md:max-w-[400px] group relative overflow-y-hidden '>
 			<img
 				src={icon.img}
 				alt={`Captura de pantalla de la página de ${icon.name}`}
