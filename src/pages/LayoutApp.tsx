@@ -13,7 +13,7 @@ export function LayoutApp() {
 	return (
 		<div className='bg-[rgb(17,17,17)] flex gutter'>
 			{isMobileScreen || <Sidebar />}
-			<div className='w-full flex flex-col items-center relative'>
+			<div className='w-full flex flex-col items-center relative background-content'>
 				{isMobileScreen ? <SearchMobile /> : <Search />}
 				<Content />
 				<Pagination />
