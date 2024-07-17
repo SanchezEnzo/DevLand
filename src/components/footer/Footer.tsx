@@ -14,7 +14,7 @@ export function Footer() {
 						<ArrowLeft />
 					</div>
 				</div>
-				<button className='w-[80px] h-[40px] outline flex items-center justify-center rounded-md outline-[#f1f1f155] outline-[0.1px] group hover:bg-white  duration-300 '>
+				<button className='w-[100px] h-[40px] outline flex items-center justify-center rounded-md outline-[#f1f1f155] outline-[0.1px] group hover:bg-white  duration-300 '>
 					<a
 						href='https://github.com/SanchezEnzo/DevLand'
 						className='w-full h-full flex justify-center items-center gap-1 font-bold group-hover:text-black'

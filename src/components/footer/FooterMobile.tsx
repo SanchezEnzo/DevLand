@@ -21,7 +21,7 @@ export function FooterMobile() {
 								target='_blank'
 							>
 								{stars.length}
-								<StarIcon className='fill-current text-[#FE9900]  group-hover:animate-spin-slow group-hover:duration-300' />
+								<StarIcon className='fill-current text-[#FE9900]  ' />
 							</a>
 						</button>
 						<div className='flex gap-2 items-center w-40'>
