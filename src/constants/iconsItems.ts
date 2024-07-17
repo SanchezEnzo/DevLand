@@ -2,13 +2,6 @@ import { Item } from '../typescript/Interface';
 
 export const ICONS_ITEM: Item[] = [
 	{
-		name: 'Lucide',
-		tag: 'Icons',
-		description: 'Beautiful & consistent icons',
-		img: '/imgs/content/Lucide.png',
-		link: 'https://lucide.dev/',
-	},
-	{
 		name: 'Boxicons',
 		tag: 'Icons',
 		description:
@@ -16,7 +9,6 @@ export const ICONS_ITEM: Item[] = [
 		img: '/imgs/content/Boxicons.png',
 		link: 'https://boxicons.com/',
 	},
-
 	{
 		name: 'Crypto Logos',
 		tag: 'Icons',
@@ -31,6 +23,7 @@ export const ICONS_ITEM: Item[] = [
 		img: '/imgs/content/CssIcons.png',
 		link: 'https://css.gg/',
 	},
+
 	{
 		name: 'Flaticon',
 		tag: 'Icons',
@@ -47,11 +40,70 @@ export const ICONS_ITEM: Item[] = [
 		link: 'https://heroicons.com/',
 	},
 	{
-		name: 'Heroicons',
+		name: 'iloveIMG',
+		tag: 'Tools',
+		description: 'Every tool you could want to edit images in bulk.',
+		img: '/imgs/content/iloveimg.jpg',
+		link: 'https://www.iloveimg.com/',
+	},
+	{
+		name: 'Lucide',
+		tag: 'Icons',
+		description: 'Beautiful & consistent icons',
+		img: '/imgs/content/Lucide.png',
+		link: 'https://lucide.dev/',
+	},
+	{
+		name: 'Material UI',
+		tag: 'Libraries',
+		description:
+			'MUI provides a simple, customizable, and accessible library of React components',
+		img: '/imgs/content/Mui.jpg',
+		link: 'https://mui.com/',
+	},
+	{
+		name: 'NextUI',
+		tag: 'Libraries',
+		description: 'Beautiful, fast and modern React UI library.',
+		img: '/imgs/content/NextUI.jpg',
+		link: 'https://nextui.org/',
+	},
+	{
+		name: 'Shadcn',
+		tag: 'Components',
+		description:
+			'Beautifully designed components that you can copy and paste into your apps.',
+		img: '/imgs/content/Shadcn.jpg',
+		link: 'https://ui.shadcn.com/',
+	},
+	{
+		name: 'Squoosh',
+		tag: 'Tools',
+		description:
+			'The ultimate image optimizer that allows you to compress and compare images with different codecs in your browser.',
+		img: '/imgs/content/Squoosh.jpg',
+		link: 'https://squoosh.app/',
+	},
+	{
+		name: 'Svg Repo',
 		tag: 'Icons',
 		description:
-			'Beautiful hand-crafted SVG icons, by the makers of Tailwind CSS.',
-		img: '/imgs/content/heroicons.png',
-		link: 'https://heroicons.com/',
+			'Search, explore and edit the best-fitting free icons or vectors for your projects.',
+		img: '/imgs/content/SvgRepo.jpg',
+		link: 'https://www.svgrepo.com/',
+	},
+	{
+		name: 'Tailwind components',
+		tag: 'Tailwind',
+		description: 'Open source Tailwind UI components and templates.',
+		img: '/imgs/content/Tailwindcomponents.jpg',
+		link: 'https://tailwindcomponents.com/',
+	},
+	{
+		name: 'Tinypng',
+		tag: 'Tools',
+		description: 'Smart WebP, PNG and JPEG compression for faster websites.',
+		img: '/imgs/content/Tinypng.jpg',
+		link: 'https://tinypng.com/',
 	},
 ];
