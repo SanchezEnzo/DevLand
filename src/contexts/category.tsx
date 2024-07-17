@@ -2,6 +2,7 @@ import { createContext, useState } from 'react';
 
 export type Categories =
 	| 'All'
+	| 'Components'
 	| 'Icons'
 	| 'Images'
 	| 'Libraries'
