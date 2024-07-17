@@ -5,7 +5,7 @@ export function Footer() {
 	const { stars } = useStar();
 
 	return (
-		<footer className='h-20 w-full bg-[rgb(11,11,11)] outline outline-[#f1f1f111] outline-[0.1px] text-[#cbc8c8] flex items-center justify-end '>
+		<footer className='h-20 w-full bg-[rgb(11,11,11)] outline outline-[#f1f1f111] outline-[0.1px] text-[#cbc8c8] flex items-center justify-end relative z-10'>
 			<nav className='w-[180px] flex  justify-end items-center pr-5'>
 				{/* <p className='font-semibold'>With ❤️ by Enzo Sanchez</p> */}
 				<div className='flex gap-2 items-center w-40'>

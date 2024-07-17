@@ -5,7 +5,7 @@ export function Sidebar() {
 	const { updateCategory, category } = useCategory();
 
 	return (
-		<aside className='w-full sticky top-0 max-w-[300px] bg-[#0b0b0b] flex flex-col items-center h-screen text-[#f1f1f1] gap-10 pt-5 outline outline-[#f1f1f111] outline-[0.1px] overflow-y-auto custom-scroll'>
+		<aside className='w-full sticky top-0 max-w-[300px] bg-[#0b0b0b] flex flex-col items-center h-screen text-[#f1f1f1] gap-10 pt-5 outline outline-[#f1f1f111] outline-[0.1px] overflow-y-auto custom-scroll z-20'>
 			<h1 className='rubik-doodle-shadow-regular text-5xl'>Devland</h1>
 			<ul className='flex flex-col px-10 w-full gap-4 '>
 				{CATEGORIES.map(cat => {
