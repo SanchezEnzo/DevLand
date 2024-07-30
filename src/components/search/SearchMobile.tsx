@@ -5,7 +5,7 @@ export function SearchMobile() {
 	const { handleChange } = useQuery();
 
 	return (
-		<header className='w-full px-5 min-h-12 z-10  flex flex-col items-center  bg-[rgb(11,11,11)]'>
+		<header className='w-full px-5 min-h-12 z-10  flex flex-col items-center  bg-[rgb(27,27,27)]'>
 			<h1 className='rubik-doodle-shadow-regular text-5xl text-[#f1f1f1] pt-5'>
 				Devland
 			</h1>
