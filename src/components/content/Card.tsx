@@ -26,6 +26,7 @@ export function Card({ icon }: { icon: Item }) {
 				className='absolute w-full h-full z-10 '
 				href={icon.link}
 				target='_blank'
+				rel='noopener noreferrer'
 			></a>
 		</article>
 	);

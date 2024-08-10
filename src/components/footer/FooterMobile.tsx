@@ -19,6 +19,7 @@ export function FooterMobile() {
 								href='https://github.com/SanchezEnzo/DevLand'
 								className='w-full h-full flex justify-center items-center gap-3 font-bold '
 								target='_blank'
+								rel='noopener noreferrer'
 							>
 								<div className='flex gap-1'>
 									<StarIcon className='fill-current text-[#FE9900]  ' />
