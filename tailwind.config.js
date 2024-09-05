@@ -4,8 +4,8 @@ export default {
 	theme: {
 		extend: {
 			gridTemplateColumns: {
-				repeatAutoFill: 'repeat(auto-fill,minmax(400px, 1fr))',
-				repeatAutoFillMobile: 'repeat(auto-fill,minmax(300px, 1fr))',
+				repeatAutoFill: 'repeat(auto-fill,minmax(300px, 1fr))',
+				repeatAutoFillMobile: 'repeat(auto-fill,minmax(250px, 1fr))',
 			},
 			keyframes: {
 				'spin-slow': {
@@ -14,6 +14,9 @@ export default {
 			},
 			animation: {
 				'spin-slow': 'spin-slow 5s linear infinite',
+			},
+			fontFamily: {
+				'rubik-doodle-shadow': ['Rubik Doodle Shadow', 'system-ui'],
 			},
 		},
 	},

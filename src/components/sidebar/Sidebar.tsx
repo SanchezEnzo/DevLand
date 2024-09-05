@@ -7,7 +7,7 @@ export function Sidebar() {
 	return (
 		<aside className='w-full sticky top-0 max-w-[300px] bg-[#0b0b0b] flex flex-col items-center h-screen text-[#f1f1f1] gap-5  outline outline-[#f1f1f111] outline-[0.1px] overflow-y-auto custom-scroll z-20 pb-4'>
 			<h1
-				className='rubik-doodle-shadow-regular text-5xl sticky top-0 z-30 bg-inherit py-5 w-full text-center'
+				className='font-rubik-doodle-shadow text-5xl sticky top-0 z-30 bg-inherit py-5 w-full text-center'
 				translate='no'
 			>
 				Devland
