@@ -5,21 +5,21 @@ export const ICONS_ITEM: Item[] = [
 		name: 'Boxicons',
 		tag: 'Icons',
 		description:
-			'Simple open source icons carefully crafted for designers & developers',
+			'Simple open source icons carefully crafted for designers & developers.',
 		img: '/imgs/content/Boxicons.png',
 		link: 'https://boxicons.com/',
 	},
 	{
 		name: 'Crypto Logos',
 		tag: 'Icons',
-		description: 'High quality cryptocurrency logos',
+		description: 'High quality cryptocurrency logos.',
 		img: '/imgs/content/CryptoLogos.png',
 		link: 'https://cryptologos.cc/',
 	},
 	{
 		name: 'Css Icons',
 		tag: 'Icons',
-		description: 'Open-source CSS, SVG and Figma UI icons',
+		description: 'Open-source CSS, SVG and Figma UI icons.',
 		img: '/imgs/content/CssIcons.png',
 		link: 'https://css.gg/',
 	},
@@ -27,7 +27,7 @@ export const ICONS_ITEM: Item[] = [
 	{
 		name: 'Flaticon',
 		tag: 'Icons',
-		description: 'Access 16.2M+ vector icons & stickers',
+		description: 'Access 16.2M+ vector icons & stickers.',
 		img: '/imgs/content/Flaticon.png',
 		link: 'https://www.flaticon.com/',
 	},
@@ -49,7 +49,7 @@ export const ICONS_ITEM: Item[] = [
 	{
 		name: 'Lucide',
 		tag: 'Icons',
-		description: 'Beautiful & consistent icons',
+		description: 'Beautiful & consistent icons.',
 		img: '/imgs/content/Lucide.png',
 		link: 'https://lucide.dev/',
 	},
@@ -57,7 +57,7 @@ export const ICONS_ITEM: Item[] = [
 		name: 'Material UI',
 		tag: 'Libraries',
 		description:
-			'MUI provides a simple, customizable, and accessible library of React components',
+			'MUI provides a simple, customizable, and accessible library of React components.',
 		img: '/imgs/content/Mui.jpg',
 		link: 'https://mui.com/',
 	},
