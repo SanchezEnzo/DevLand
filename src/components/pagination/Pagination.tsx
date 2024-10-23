@@ -14,7 +14,6 @@ export function Pagination() {
 			>
 				Previous
 			</button>
-
 			<div className='h-12 w-12 outline bg-[#f1f1f1dd] text-black  flex justify-center items-center outline-[#f1f1f119] outline-[0.1px] rounded-md border-black border-[3px]'>
 				{page}
 			</div>
