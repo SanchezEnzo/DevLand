@@ -12,7 +12,7 @@ export function SearchMobile() {
 			>
 				Devland
 			</h1>
-			<form className='text-[#f1f1f1] w-full  gap-3 items-center h-[46px] pl-4 outline  outline-[#f1f1f155] outline-[0.1px] mt-5 flex  bg-[rgb(11,11,11)] rounded-md '>
+			<form className='text-[#f1f1f1] w-full  gap-3 items-center h-[46px] pl-4 outline  outline-[#f1f1f125] outline-[0.1px] mt-5 flex  bg-[rgb(11,11,11)] rounded-md '>
 				<div>
 					<SearchIcon />
 				</div>
