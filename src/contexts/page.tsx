@@ -22,7 +22,7 @@ export function PageProvider({ children }: { children: React.ReactNode }) {
 	};
 
 	const checkIsLastPage = (filteredItems: Item[]): Item[] => {
-		setIsLastPage(filteredItems.length / 6 <= page);
+		setIsLastPage(filteredItems.length / 8 <= page);
 		return filteredItems;
 	};
 	return (
