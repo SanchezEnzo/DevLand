@@ -1,19 +1,8 @@
 import { createContext, useState } from 'react';
+import { Categories } from '../typescript/Interface';
 
-export type Categories =
-	| 'All'
-	| 'Animations'
-	| 'CSS'
-	| 'Components'
-	| 'HTML'
-	| 'Icons'
-	| 'Images'
-	| 'Libraries'
-	| 'Tailwind'
-	| 'Tips'
-	| 'Tools'
-	| 'UX-UI';
 
+// 
 export interface CategoryContextProps {
 	category: Partial<Categories>;
 	updateCategory: (category: Partial<Categories>) => void;

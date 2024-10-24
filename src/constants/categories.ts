@@ -1,4 +1,4 @@
-import { Categories } from '../contexts/category';
+import { Categories } from "../typescript/Interface";
 
 export const CATEGORIES: Partial<Categories>[] = [
 	'All',
@@ -13,4 +13,5 @@ export const CATEGORIES: Partial<Categories>[] = [
 	'Tips',
 	'Tools',
 	'UX-UI',
+	'Videos',
 ];
