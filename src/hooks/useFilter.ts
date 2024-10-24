@@ -21,7 +21,7 @@ export function useFilter() {
 		const filterByCategory =
 			category === 'All'
 				? ICONS_ITEM
-				: ICONS_ITEM.filter(item => item.tag === category);
+				: ICONS_ITEM.filter(item => item.tag.some(categoryItem => categoryItem === category));
 
 		const filterByQuery =
 			query === ''
