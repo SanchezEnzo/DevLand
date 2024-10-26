@@ -5,7 +5,7 @@ export function Card({ icon }: { icon: Item }) {
 		<article className='outline outline-[#f1f1f125] outline-[0.1px] text-[#f1f1f1ee] rounded-md w-full px-5 py-5 flex flex-col items-center cursor-pointer justify-center gap-3 bg-[rgb(11,11,11)] max-w-[400px] max-md:max-w-[300px] group relative overflow-y-hidden sm:hover:scale-[1.02] duration-300'>
 			<img
 				src={icon.img}
-				alt={`Captura de pantalla de la página de ${icon.name}`}
+				alt={`Screenshot of ${icon.alt}`}
 				width='100%'
 				loading='lazy'
 				className='min-w-[160px] min-h-[174px] max-md:min-w-[160px] max-md:min-h-[124px] max-sm:opacity-90'

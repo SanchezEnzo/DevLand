@@ -7,6 +7,7 @@ export const ICONS_ITEM: Item[] = [
 		description:
 			'Simple open source icons carefully crafted for designers & developers.',
 		img: '/imgs/content/Boxicons.png',
+		alt: 'Boxicons. Simple open source icons carefully crafted for designers & developers.',
 		link: 'https://boxicons.com/',
 	},
 	{
@@ -15,6 +16,7 @@ export const ICONS_ITEM: Item[] = [
 		description:
 			'Check if you can include one library in another library or framework.',
 		img: '/imgs/content/Caninclude.png',
+		alt: 'CanInclude. Check if you can include one library in another library or framework.',
 		link: 'https://www.caninclude.glitch.me/',
 	},
 	{
@@ -22,6 +24,7 @@ export const ICONS_ITEM: Item[] = [
 		tag: ['Icons'],
 		description: 'High quality cryptocurrency logos.',
 		img: '/imgs/content/CryptoLogos.png',
+		alt: 'Crypto Logos. High quality cryptocurrency logos.',
 		link: 'https://cryptologos.cc/',
 	},
 	{
@@ -29,6 +32,7 @@ export const ICONS_ITEM: Item[] = [
 		tag: ['Tools'],
 		description: 'A simple tool to generate CSS gradients.',
 		img: '/imgs/content/Cssgradient.jpg',
+		alt: 'Css Gradient. A simple tool to generate CSS gradients.',
 		link: 'https://cssgradient.io/',
 	},
 	{
@@ -36,6 +40,7 @@ export const ICONS_ITEM: Item[] = [
 		tag: ['Icons'],
 		description: 'Open-source CSS, SVG and Figma UI icons.',
 		img: '/imgs/content/CssIcons.png',
+		alt: 'Css Icons. Open-source CSS, SVG and Figma UI icons.',
 		link: 'https://css.gg/',
 	},
 	{
@@ -43,6 +48,7 @@ export const ICONS_ITEM: Item[] = [
 		tag: ['Tools'],
 		description: 'A collection of loading spinners animated with CSS.',
 		img: '/imgs/content/Cssloaders.jpg',
+		alt: 'Css loaders. A collection of loading spinners animated with CSS.',
 		link: 'https://css-loaders.com/',
 	},
 	{
@@ -50,6 +56,7 @@ export const ICONS_ITEM: Item[] = [
 		tag: ['Icons'],
 		description: 'Access 16.2M+ vector icons & stickers.',
 		img: '/imgs/content/Flaticon.png',
+		alt: 'FlatIcon. Access 16.2M+ vector icons & stickers.',
 		link: 'https://www.flaticon.com/',
 	},
 	{
@@ -58,6 +65,7 @@ export const ICONS_ITEM: Item[] = [
 		description:
 			'Beautiful hand-crafted SVG icons, by the makers of Tailwind CSS.',
 		img: '/imgs/content/heroicons.png',
+		alt: 'Heroicons. Beautiful hand-crafted SVG icons, by the makers of Tailwind CSS.',
 		link: 'https://heroicons.com/',
 	},
 	{
@@ -66,6 +74,7 @@ export const ICONS_ITEM: Item[] = [
 		description:
 			'A free guide to HTML. It features all elements and attributes.',
 		img: '/imgs/content/Htmlreference.jpg',
+		alt: 'Html reference. A free guide to HTML. It features all elements and attributes.',
 		link: 'https://htmlreference.io/',
 	},
 	// {
@@ -80,6 +89,7 @@ export const ICONS_ITEM: Item[] = [
 		tag: ['Icons'],
 		description: 'A high-quality selection of free icons.',
 		img: '/imgs/content/Iconoir.jpg',
+		alt: 'Iconoir. A high-quality selection of free icons.',
 		link: 'https://iconoir.com/',
 	},
 	{
@@ -87,6 +97,7 @@ export const ICONS_ITEM: Item[] = [
 		tag: ['Tools'],
 		description: 'Every tool you could want to edit images in bulk.',
 		img: '/imgs/content/iloveimg.jpg',
+		alt: 'iloveIMG. Every tool you could want to edit images in bulk.',
 		link: 'https://www.iloveimg.com/',
 	},
 	{
@@ -94,6 +105,7 @@ export const ICONS_ITEM: Item[] = [
 		tag: ['Icons'],
 		description: 'Beautiful & consistent icons.',
 		img: '/imgs/content/Lucide.png',
+		alt: 'Lucide. Beautiful & consistent icons.',
 		link: 'https://lucide.dev/',
 	},
 	{
@@ -102,6 +114,7 @@ export const ICONS_ITEM: Item[] = [
 		description:
 			'MUI provides a simple, customizable, and accessible library of React components.',
 		img: '/imgs/content/Mui.jpg',
+		alt: 'Material UI. MUI provides a simple, customizable, and accessible library of React components.',
 		link: 'https://mui.com/',
 	},
 	{
@@ -109,6 +122,7 @@ export const ICONS_ITEM: Item[] = [
 		tag: ['Libraries'],
 		description: 'Beautiful, fast and modern React UI library.',
 		img: '/imgs/content/NextUI.jpg',
+		alt: 'NextUI. Beautiful, fast and modern React UI library.',
 		link: 'https://nextui.org/',
 	},
 	{
@@ -117,6 +131,7 @@ export const ICONS_ITEM: Item[] = [
 		description:
 			'Beautifully designed components that you can copy and paste into your apps.',
 		img: '/imgs/content/Shadcn.jpg',
+		alt: 'Shadcn. Beautifully designed components that you can copy and paste into your apps.',
 		link: 'https://ui.shadcn.com/',
 	},
 	{
@@ -125,6 +140,7 @@ export const ICONS_ITEM: Item[] = [
 		description:
 			'The ultimate image optimizer that allows you to compress and compare images with different codecs in your browser.',
 		img: '/imgs/content/Squoosh.jpg',
+		alt: 'Squoosh. The ultimate image optimizer that allows you to compress and compare images with different codecs in your browser.',
 		link: 'https://squoosh.app/',
 	},
 	{
@@ -133,6 +149,7 @@ export const ICONS_ITEM: Item[] = [
 		description:
 			'Search, explore and edit the best-fitting free icons or vectors for your projects.',
 		img: '/imgs/content/SvgRepo.jpg',
+		alt: 'Svg Repo. Search, explore and edit the best-fitting free icons or vectors for your projects.',
 		link: 'https://www.svgrepo.com/',
 	},
 	{
@@ -141,6 +158,7 @@ export const ICONS_ITEM: Item[] = [
 		description:
 			'A free repository for community components using Tailwind CSS.',
 		img: '/imgs/content/Tailwindcomponents.jpg',
+		alt: 'Tailwind components. A free repository for community components using Tailwind CSS.',
 		link: 'https://tailwindcomponents.com/',
 	},
 	{
@@ -148,6 +166,7 @@ export const ICONS_ITEM: Item[] = [
 		tag: ['Tools'],
 		description: 'Smart WebP, PNG and JPEG compression for faster websites.',
 		img: '/imgs/content/Tinypng.jpg',
+		alt: 'Tinypng. Smart WebP, PNG and JPEG compression for faster websites.',
 		link: 'https://tinypng.com/',
 	},
 	{
@@ -155,6 +174,7 @@ export const ICONS_ITEM: Item[] = [
 		tag: ['Icons'],
 		description: 'High-Quality Vector Icons from Top Design Teams.',
 		img: '/imgs/content/Yesicon.jpg',
+		alt: 'Yesicon. High-Quality Vector Icons from Top Design Teams.',
 		link: 'https://www.yesicon.app/',
 	},
 ];

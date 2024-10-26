@@ -18,5 +18,6 @@ export interface Item {
 	tag: Partial<Categories>[];
 	description: string;
 	img: string;
+	alt: string;
 	link: string;
 }
