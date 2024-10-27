@@ -17,10 +17,10 @@ export function Sidebar() {
 					return (
 						<li
 							key={cat}
-							className={`w-full outline outline-[rgba(241,241,241,0.2)] outline-[0.1px] rounded-md p-2 cursor-pointer pl-3 font-semibold  duration-300 ${
+							className={`w-full outline outline-[rgba(241,241,241,0.2)]  outline-[0.1px] rounded-md p-2 cursor-pointer pl-3 font-semibold  duration-300 ${
 								category === cat
-									? 'bg-[#f1f1f1dd] text-black hover:bg-[#f1f1f1dd]'
-									: 'bg-[rgb(17,17,17)] hover:bg-[rgba(241,241,241,0.3)]'
+									? 'bg-[#f1f1f1cc] text-black hover:bg-[#f1f1f1cc] outline-[#f1f1f1] hover:outline-[#f1f1f1]'
+									: 'bg-[rgb(17,17,17)] hover:bg-[#f1f1f133] hover:outline-[#f1f1f177]'
 							}`}
 							onClick={() => updateCategory(cat)}
 						>
