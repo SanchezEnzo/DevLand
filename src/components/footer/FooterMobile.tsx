@@ -34,6 +34,7 @@ export function FooterMobile() {
 					<button
 						className='outline outline-[#f1f1f155] outline-[0.1px] rounded-md p-2 '
 						onClick={handleOpen}
+						aria-label='Open menu'
 					>
 						<HamburguerIcon />
 					</button>
