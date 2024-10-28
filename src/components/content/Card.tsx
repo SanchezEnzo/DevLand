@@ -10,11 +10,8 @@ export function Card ({ icon, index }: { icon: Item, index: number }) {
 			<img
 				src={icon.img}
 				alt={`Screenshot of ${icon.alt}`}
-				width='100%'
-				height='auto'
 				loading={category !== 'All' && query !== '' && index > 7 ? 'lazy' : undefined}
-				
-				className='min-w-[160px] min-h-[174px] max-md:min-w-[160px] max-md:min-h-[124px] max-sm:opacity-90'
+				className='min-w-[160px] min-h-[174px] max-md:min-w-[160px] max-md:min-h-[124px] max-sm:opacity-90 aspect-[60:29] w-full'
 			/>
 			<div className='w-full flex justify-between items-center'>
 				<div className='flex flex-col min-w-3/4 pl-2'>
