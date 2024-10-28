@@ -31,6 +31,7 @@ export function Card ({ icon, index }: { icon: Item, index: number }) {
 				href={icon.link}
 				target='_blank'
 				rel='noopener noreferrer'
+				aria-label={"Read more about " + icon.name}
 			></a>
 		</article>
 	);
