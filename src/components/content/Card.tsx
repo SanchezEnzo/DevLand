@@ -12,7 +12,7 @@ export function Card ({ icon, index }: { icon: Item, index: number }) {
 				alt={`Screenshot of ${icon.alt}`}
 				loading={category !== 'All' && query !== '' && index > 7 ? 'lazy' : undefined}
 				width='100%'
-				className='min-w-[160px] min-h-[174px] max-md:min-w-[160px] max-md:min-h-[124px] max-sm:opacity-90 aspect-[60/29]'
+				className='min-w-[160px] max-md:min-w-[160px] max-sm:opacity-90 aspect-[60/29]'
 			/>
 			<div className='w-full flex justify-between items-center'>
 				<div className='flex flex-col min-w-3/4 pl-2'>
