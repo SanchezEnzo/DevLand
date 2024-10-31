@@ -126,5 +126,6 @@ html {
 @font-face {
 	font-family: 'Rubik Doodle Shadow';
 	src: url('/src/media/fonts/RubikDoodleShadow-Regular.ttf');
+	font-display: swap;
 }
 
