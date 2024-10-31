@@ -16,14 +16,14 @@ export function SidebarMobile({ isOpen, handleOpen }: SidebarMobileProps) {
 			}`}
 		>
 			<h2 className='text-[#f1f1f1dd] text-3xl font-semibold'>Categories</h2>
-			<ul className='flex-col flex gap-10 w-full h-full'>
+			<ul className='flex-col flex gap-3 w-full h-full'>
 				{CATEGORIES.map(cat => (
 					<li
 						key={cat}
-						className={`w-full outline outline-[#f1f1f133] outline-[0.1px] rounded-md p-2 cursor-pointer pl-3 font-semibold duration-300 ${
+						className={`w-full border-[#f1f1f133] border-b-[0.1px]  p-2  pl-3 font-semibold duration-300 ${
 							category === cat
-								? 'bg-[#f1f1f1dd] text-black'
-								: 'bg-[rgb(14,14,14)] text-[#f1f1f1dd]'
+								? 'bg-[#f1f1f1dd] text-black translate-x-2 rounded-md'
+								: ' text-[#f1f1f1dd] rounded-bl-md'
 						}`}
 						onClick={() => {
 							updateCategory(cat);
