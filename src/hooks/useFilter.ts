@@ -10,7 +10,7 @@ export function useFilter() {
 	const { query } = useQuery();
 	const { category } = useCategory();
 	const [filteredItems, setFilteredItems] = useState<Item[]>(ICONS_ITEM);
-	const { checkIsLastPage, page } = usePage();
+	const { checkIsLastPage } = usePage();
 
 	useEffect(() => {
 		if (category === 'All' && query === '') {
@@ -37,7 +37,7 @@ export function useFilter() {
 
 	useEffect(() => {
 		checkIsLastPage(filteredItems);
-	}, [page, filteredItems]);
+	}, [ filteredItems, checkIsLastPage]);
 
 	return filteredItems;
 }
