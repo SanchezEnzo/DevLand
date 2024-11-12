@@ -21,7 +21,7 @@ export function Pagination() {
 			</div>
 
 			<button
-				className={`w-[150px] max-lg:w-[120px] h-[80px] outline flex items-center justify-center rounded-md outline-[#f1f1f119] max-md:h-12 outline-[0.1px] duration-300  bg-[rgb(11,11,11)]  ${
+				className={`w-[150px] max-lg:w-[120px] h-[80px] outline flex items-center justify-center rounded-md outline-[#f1f1f111] max-md:h-12 outline-[0.1px] duration-300  bg-[rgb(11,11,11)]  ${
 					isLastPage === true
 						? 'text-zinc-700 '
 						: 'text-[#f1f1f1] sm:hover:outline-[#f1f1f130]'
