@@ -5,6 +5,7 @@ export const CATEGORIES: Partial<Categories>[] = [
 	'Animations',
 	'CSS',
 	'Components',
+	'Guides',
 	'HTML',
 	'Icons',
 	'Images',

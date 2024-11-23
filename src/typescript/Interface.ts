@@ -3,6 +3,7 @@ export type Categories =
 	| 'Animations'
 	| 'CSS'
 	| 'Components'
+	| 'Guides'
 	| 'HTML'
 	| 'Icons'
 	| 'Images'
